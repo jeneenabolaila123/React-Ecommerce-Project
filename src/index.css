@@ -1,0 +1,50 @@
+/* Global styles: brand colors and fonts go here once the design is decided */
+:root {
+  --color-bg: #ffffff;
+  --color-text: #222222;
+  --color-accent: #333333;
+  --font-body: system-ui, 'Segoe UI', Roboto, sans-serif;
+
+  font-family: var(--font-body);
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.main {
+  min-height: 70vh;
+  padding: 1rem;
+}
+
+.footer {
+  padding: 1rem;
+  text-align: center;
+}
